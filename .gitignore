@@ -1,0 +1,33 @@
+# Local credentials and deployment configuration
+/bot/config.py
+/bot/TOKENs.md
+/sftppass.txt
+.env
+.env.*
+!.env.example
+
+# The unfinished dashboard/web app is outside this bot repository
+/web/
+/sample.py
+
+# Local bot databases and SQLite sidecar files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Python generated files and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
