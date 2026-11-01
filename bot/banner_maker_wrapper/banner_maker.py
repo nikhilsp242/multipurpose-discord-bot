@@ -3,8 +3,8 @@ import base64
 
 import aiohttp
 
-API_URL = "https://discord-banner-maker-api.vercel.app/make"
-PASSWORD = "KAT iS STpurd"
+API_URL = ""
+PASSWORD = ""
 
 
 def encode(text):
