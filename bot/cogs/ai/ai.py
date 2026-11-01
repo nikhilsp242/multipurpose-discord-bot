@@ -14,7 +14,7 @@ class AI(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.bot_name = "Kaoru"
-        self.api_key = "bbc3ce417adf52dd0d3c0677f361e48a53eeb068af15991fd9efc3461b093e8b"
+        self.api_key = ""
         self.conversation_memory = defaultdict(lambda: deque(maxlen=4))
         for command in self.get_commands():
             command.cog_category = "AI"
