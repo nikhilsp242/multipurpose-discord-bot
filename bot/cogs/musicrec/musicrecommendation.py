@@ -18,7 +18,7 @@ bot = bot_instance.instance
 spotify_url_regex = re.compile(r'https?://open\.spotify\.com/(track|playlist)/([^?]+)')
 youtube_url_regex = re.compile(r'(https?://)?(www\.)?(youtube\.com|youtu\.be)/')
 
-client_credentials_manager = SpotifyClientCredentials(client_id='0df62a61d2334fd49ab6696d6c2a3ad1', client_secret='8998e81039d842f5ab02482071627bd5')
+client_credentials_manager = SpotifyClientCredentials(client_id='', client_secret='')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 recommendation_channel_id = 1385387123053564004 #ids.recommendation_channel_id
